@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio MailTO</title>
+</head>
+<body>
+<form action="mailto:odalis@oproser.com">
+    <div>
+        <label for="email">
+            E-mail
+        </label>
+        <input
+                type="email"
+                name="email"
+                id="email"
+                title="Ingrese su email"
+                placeholder="Ingrese su email"
+        >
+
+    </div>
+    <div>
+        <label for="subject">
+            Subject
+        </label>
+        <input
+                type="text"
+                name="subject"
+                id="subject"
+        >
+    </div>
+
+    <div>
+        <label for="body">
+            Mensaje
+        </label>
+        <textarea
+                name="body"
+                id="body"
+                rows="10"></textarea>
+    </div>
+
+    <input type="submit" value="Enviar correo">
+</form>
+</body>
+</html>
