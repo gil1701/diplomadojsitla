@@ -7,13 +7,13 @@ body {
 
 header {
     width: 100%;
-    height: 10%;
+    height: 5%;
 }
 
 main {
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 90%;
 }
 
 ul, li {
@@ -57,12 +57,11 @@ section {
 .seccion3 {
     width: 100%;
     height: 50%;
-    background-color: brown;
+    background-color: greenyellow;
 }
 
 footer {
     height: 10%;
-    width: 100%;
     display: flex;
     justify-content: center;
 }
