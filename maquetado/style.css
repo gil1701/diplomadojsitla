@@ -62,6 +62,7 @@ section {
 
 footer {
     height: 10%;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
