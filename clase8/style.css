@@ -1,6 +1,15 @@
+/* importar fuentes desde google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* Paleta de colores */
+:root {
+    --color-principal-fuentes:  #FFE7D3;
+    --color-secundario-fuentes:  #494E5F;
+}
 
 html {
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Helper */
@@ -65,8 +74,7 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #FEFEFA;
-    font-family: sans-serif;
+    background-color: #FEFFFA;
 }
 
 .justificado {
@@ -80,13 +88,41 @@ hr {
     width: 85%;
     height: 3px;
     margin-left: 5%;
-    background-color: white;
+    border-style: solid;
+    background-color: var(--color-principal-fuentes);
 }
 
 h4 {
     font-size: 1.5rem;
     margin-left: 5%;
     letter-spacing: 0.1rem;
+}
+
+
+h3 {
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+}
+.info-personal {
+    width: 35%;
+    background-color: #494E5F;
+    padding-top: 6.5rem;
+    padding-bottom: 1rem;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+    color: var(--color-principal-fuentes);
+}
+
+.info-general {
+    width: 65%;
+    font-family: sans-serif;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    color: var(--color-secundario-fuentes);
 }
 
 .info-general-h4 {
@@ -99,31 +135,6 @@ h4 {
     margin-bottom: 2rem;
     margin-left: 0.5rem;
     padding: 0;
-}
-h3 {
-    letter-spacing: 0.1rem;
-    font-size: 1.3rem;
-}
-.info-personal {
-    width: 35%;
-    background-color: #494E5F;
-    padding-top: 6.5rem;
-    padding-bottom: 1rem;
-    padding-left: 2.25rem;
-    padding-right: 2.25rem;
-    color: white;
-}
-
-.info-general {
-    width: 65%;
-    font-family: sans-serif;
-    padding-top: 4rem;
-    padding-bottom: 1rem;
-    padding-left: 2.25rem;
-    padding-right: 2.25rem;
-    margin-left: 4.5rem;
-    margin-right: 4.5rem;
-    color: black;
 }
 
 .historical {
