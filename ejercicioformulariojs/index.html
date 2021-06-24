@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Formularios y el DOM</title>
+</head>
+<body>
+
+<h2>Tarea Formulario y el DOM</h2>
+<div class="container">
+    <form action="">
+        <div class="row">
+            <div class="col-25">
+                <label for="background_color">Color de fondo</label>
+            </div>
+            <div class="col-75">
+                <input type="color" id="background_color" name="background_color" placeholder="Color de fondo...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="font_height">Tamaño de la fuente</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="font_height" name="font_height" placeholder="Tamaño fuente...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="font_color">Color de la fuente</label>
+            </div>
+            <div class="col-75">
+                <input type="color" id="font_color" name="font_color" placeholder="Color fuente...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="height_div">Altura div</label>
+            </div>
+            <div class="col-75">
+                <input id="height_div" name="height_div" type="text" placeholder="Altura del div">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="width_div">Ancho del div</label>
+            </div>
+            <div class="col-75">
+                <input id="width_div" name="width_div" type="text" placeholder="Ancho del div" >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="content">Contenido del div</label>
+            </div>
+            <div class="col-75">
+                <input id="content" name="content" type="text" placeholder="Escriba el contenido" >
+            </div>
+        </div>
+        <div class="row">
+            <button onclick=ejecutar() id="procesar" type="button"> Procesar </button>
+        </div>
+    </form>
+</div>
+
+<div id="result">
+    Esto es un div
+</div>
+<script src="main.js"></script>
+</body>
+</html>
